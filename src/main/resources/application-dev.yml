@@ -1,0 +1,19 @@
+server:
+  port: 8082
+net:
+  liaofan:
+    name: 'Zdy_自定义配置名称-Dev'
+
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  task:
+    pool:
+      max-pool-size: 100

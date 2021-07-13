@@ -1,0 +1,8 @@
+server:
+  port: 8081
+net:
+  liaofan:
+    name: '自定义配置名称'
+spring:
+  profiles:
+    active: dev
